@@ -7,7 +7,7 @@ terraform {
   }
 
   cloud {
-    organization = "unbar"
+    organization = "sre"
 
     workspaces {
       name = "gh-unbar-infra"

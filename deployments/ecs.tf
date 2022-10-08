@@ -10,7 +10,7 @@ data "aws_subnets" "subnets" {
 }
 
 data "aws_ecr_repository" "repo" {
-  name = "eddydecena"
+  name = "sre"
 }
 
 resource "aws_ecs_cluster" "sre_challenge" {

@@ -7,10 +7,10 @@ terraform {
   }
 
   cloud {
-    organization = "sre"
+    organization = "unbar"
 
     workspaces {
-      name = "gh-unbar-infra"
+      name = "sre"
     }
   }
 }
